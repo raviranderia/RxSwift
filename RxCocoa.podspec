@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.osx.source_files      = 'RxCocoa/macOS/**/*.swift'
   s.watchos.source_files  = 'RxCocoa/iOS/**/*.swift'
   s.tvos.source_files     = 'RxCocoa/iOS/**/*.swift'
-
+  ss.static_framework = true
   s.dependency 'RxSwift', '~> 4.0'
 end
